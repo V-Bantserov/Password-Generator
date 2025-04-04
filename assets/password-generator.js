@@ -1,7 +1,6 @@
 // ----------------------------
 // PASSWORD GENERATION FUNCTIONS
 // ----------------------------
-
 /**
  * Main function to generate passwords based on user settings
  */
@@ -165,7 +164,6 @@ function generateSinglePassword(
 // ----------------------------
 // UI RELATED FUNCTIONS
 // ----------------------------
-
 /**
  * Copies all generated passwords (excluding copy icons) to the clipboard.
  */
@@ -268,13 +266,10 @@ function handleCopyClick(element, password) {
 // Make function available in global scope
 window.handleCopyClick = handleCopyClick;
 
-// ----------------------------
-// EVENT LISTENERS
-// ----------------------------
-// ----------------------------
-// EVENT LISTENERS
-// ----------------------------
 
+// ----------------------------
+// EVENT LISTENERS
+// ----------------------------
 // Initialize the page when DOM content is loaded
 document.addEventListener("DOMContentLoaded", () => {
   // Load saved settings from cookie (if any) and update form.
@@ -476,7 +471,6 @@ window.generatePasswords = generatePasswords;
 // ----------------------------
 // COOKIE UTILS AND SETTINGS
 // ----------------------------
-
 /**
  * Retrieves the cookie value for the given name.
  * @param {string} name - Cookie name.
