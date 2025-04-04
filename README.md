@@ -45,8 +45,5 @@ Built with HTML, CSS, and JavaScript, it offers an intuitive interface for easy 
 4.  The generated passwords will appear in the "Generated Passwords" section.
 5.  Use the "Copy All" button to copy all passwords, or the copy icon next to each password to copy it individually.
 
-## Author
-[![Vadim Bantserov](https://img.shields.io/badge/Author:-Vadim%20Bantserov-blue)](https://github.com/V-Bantserov/)
-
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License:-GPLv3-important.svg)](https://www.gnu.org/licenses/gpl-3.0)
